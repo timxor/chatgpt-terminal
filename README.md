@@ -12,6 +12,7 @@ pip install -r requirements.txt
 ## 2. Add OpenAI API key
 
 Generate and copy a new OpenAI API key from API Key settings website: 
+
 https://platform.openai.com/account/api-keys
 
 Put your new api key in a new file called ```.env```.
