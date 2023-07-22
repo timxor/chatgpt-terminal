@@ -19,7 +19,7 @@ colorama==0.4.6
 coverage==7.2.3
 cssselect==1.2.0
 distlib==0.3.5
-Django==4.1
+Django==4.1.10
 dnspython==2.3.0
 docker==6.0.1
 duckduckgo-search==2.8.6
