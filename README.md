@@ -29,8 +29,8 @@ OPEN_AI_API_KEY=your-openai-api-key-goes-here
 
 Copy gpt.py:
 ```
-chmod +x gpt.py
-sudo cp gpt.py /usr/local/bin/gpt.py
+chmod +x gpt_cli.py
+sudo cp gpt_cli.py /usr/local/bin/gpt_cli.py
 
 chmod +x .env
 sudo cp .env /usr/local/bin/.env
@@ -39,13 +39,31 @@ sudo cp .env /usr/local/bin/.env
 Add alias:
 ``` 
 nano ~/.zshrc
-alias gpt="python gpt.py"
+alias gpt="python gpt_cli.py"
 source ~/.zshrc
 ```
 
-## 4. Run 
+## 4. Run gpt_cli.py
 
+Run with alias:
+``` 
+gpt hello there, how are you?
+```
 
+Run without alias:
+``` 
+python gpt_cli.py hello there, how are you?
+```
 
+## 5. Run gpt_interpreter.py
 
+Run without alias:
+``` 
+python gpt_interpreter.py
+```
+
+Run with alias:
+``` 
+gpt_interpreter
+```
 
